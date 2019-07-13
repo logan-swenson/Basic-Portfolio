@@ -19,15 +19,16 @@ label {
     height: 150px;
 }
 #head {
-    width: 100%;
     height: 50px;
     background-color: #659DBD;
-    border-bottom: 2px solid lightgrey;
+    border: 2px solid lightgrey;
+    width: 75%;
     position: fixed;
-    margin: 0;
-    top: 0;
-    left: 0;
+    left: 50%;
+    margin-left: -37.5%;
+    top: 10px;
     z-index: 1;
+    border-radius: 10px;
 }
 
 #aboutme {
@@ -47,28 +48,36 @@ label {
     background: #8D8741; 
     height: auto;
     line-height: 50px;
-    width: 300px;
+    width: 50%;
     float: left;
     text-align: center;
     position: absolute;
     margin: 0;
     top: 0;
     bottom: 0;
-    left: 10%;
     z-index: 1;
+    border-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #links{
     font-size: 20px;
-    color: lightgrey;
+    color: White;
+    background: #659DBD; 
+    height: auto;
     line-height: 50px;
+    width: 50%;
     float: right;
+    right:0;
     text-align: center;
     position: absolute;
     margin: 0;
     top: 0;
     bottom: 0;
-    right: 10%;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #head1 {
@@ -111,10 +120,12 @@ label {
 }
 .imgtxt img {
     max-width: 100%;
+    border-radius: 10px;
 }
 .img-container {
     display: inline-block;
     position: relative;
+    
 }
 .positioning{
     position: absolute;
@@ -125,6 +136,7 @@ label {
     padding: 30px;
     font-size: 30px;
     line-height: 10px;
+    border-radius: 10px;
 }
 /* Do some stuff */
 
